@@ -1,0 +1,7 @@
+funct = 'hartmann3d'
+num = 3
+bounds = [[0,1],[0,1],[0,1]]
+num_spec = 1
+bfgs_iter = [2000]
+iteration = 40
+K = 100

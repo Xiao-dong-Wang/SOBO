@@ -1,0 +1,7 @@
+funct = 'gl'
+num = 5
+bounds = [[0.5, 2.5]]
+num_spec = 1
+bfgs_iter = [2000]
+iteration = 80
+K = 1000

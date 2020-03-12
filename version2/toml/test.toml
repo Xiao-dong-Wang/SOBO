@@ -1,0 +1,7 @@
+funct = 'test'
+num = 3
+bounds = [[-0.5,1.0]]
+num_spec = 1
+bfgs_iter = [2000]
+iteration = 12
+K = 1000
