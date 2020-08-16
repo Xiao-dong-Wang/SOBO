@@ -1,0 +1,7 @@
+funct = 'Styblinski_Tang'
+num = 3
+bounds = [[-5, 5], [-5, 5], [-5, 5], [-5, 5], [-5, 5]]
+num_spec = 1
+bfgs_iter = [2000]
+iteration = 80
+K = 100

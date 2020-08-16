@@ -1,8 +1,8 @@
 # SOBO
 Single-Objective Bayesian Optimization
 
-An efficient global optimization algorithm for constrained single-objective problems.
-It is used to optimize the expensive black box functions, but not suitable for situations with high design space dimension.
+This version directly uses the package GPy for GP model training, and multiple starting point (MSP) strategy is utilized to optimize the acquisition function.
+
 
 ***
 GP model is constructed based on GPy module.

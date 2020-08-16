@@ -1,8 +1,10 @@
 # SOBO
 Single-Objective Bayesian Optimization
 
-An efficient global optimization algorithm for constrained single-objective problems.
-It is used to optimize the expensive black box functions, but not suitable for situations with high design space dimension.
+This version uses the BFGS algorithm to optimize the likelihood function, and multiple starting point (MSP) strategy is utilized to optimize the acquisition function.
+Since BFGS depends on the gradient value, in order to improve the speed and accuracy of calculating the gradient, an package named Autograd is used here.
+
+It looks better than other methods, but the flexibility of Autograd is not very good.
 
 Dependencies:
 
