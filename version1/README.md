@@ -7,8 +7,11 @@ This version uses the BFGS algorithm for GP model training. A multiple-starting-
 Autograd is used to improve the speed and accuracy of gradient calculation.
 
 The optimization process for one toy function is shown here.
+
 ![image](https://github.com/Xiao-dong-Wang/SOBO/blob/master/version1/figures/BO_it_1.png)
+
 ![image](https://github.com/Xiao-dong-Wang/SOBO/blob/master/version1/figures/BO_it_4.png)
+
 ![image](https://github.com/Xiao-dong-Wang/SOBO/blob/master/version1/figures/BO_it_7.png)
 
 The sampling efficiency of this method is very high, but the flexibility of Autograd is not that good.
